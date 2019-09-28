@@ -21,4 +21,4 @@ for index,item in df.iterrows():
 
 GPA = (4.0*suma + 3.0*sumb + 2.0*sumc) / (suma+sumb+sumc+sumf)
 
-print('Your GPA is',GPA)
+print('Your GPA is','{:.2f}'.format(GPA))
